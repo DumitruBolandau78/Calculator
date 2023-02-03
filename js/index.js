@@ -8,8 +8,6 @@ const inputShowNewValue = document.querySelector('.answer input'),
     egal = document.querySelector('.egal'),
     inmultire = document.querySelector('.inmultire');
 
-
-
 inputShowNewValue.value = '';
 
 numbers.forEach(item => {
