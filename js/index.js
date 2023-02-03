@@ -9,7 +9,7 @@ const inputShowNewValue = document.querySelector('.answer input'),
     inmultire = document.querySelector('.inmultire');
 
 inputShowNewValue.value = '';
-
+inputShowNewValue.readOnly = true;
 numbers.forEach(item => {
     item.addEventListener('click', () => {
         inputShowNewValue.value += item.textContent;
